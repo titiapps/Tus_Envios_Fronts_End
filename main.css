@@ -1,4 +1,4 @@
-@import url("header.css");
+@import url("head.css");
 *, *::after, *::before {
     box-sizing: border-box;
 }
