@@ -1,0 +1,17 @@
+.contenido-principal {
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+@media(min-width:600px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-column-gap: 2rem;
+    }
+  
+}
+.servicios i {
+    font-size: 3rem;
+    color:  rgb(255, 90, 95);
+}
